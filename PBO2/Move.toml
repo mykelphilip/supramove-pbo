@@ -1,0 +1,14 @@
+[package]
+name = "PBO2"
+version = "1.0.0"
+
+[addresses]
+Addy = "daeee09ca339eb67789bf1c9dba1b69b7b97c064d02dd5cfea03c7c1a13ecefc"
+Std = "daeee09ca339eb67789bf1c9dba1b69b7b97c064d02dd5cfea03c7c1a13ecefc"
+exampleAddress = "daeee09ca339eb67789bf1c9dba1b69b7b97c064d02dd5cfea03c7c1a13ecefc"
+anotherAddress = "daeee09ca339eb67789bf1c9dba1b69b7b97c064d02dd5cfea03c7c1a13ecefc"
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
